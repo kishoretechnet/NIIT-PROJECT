@@ -8,6 +8,7 @@
 </head>
 <body>
 <jsp:include page="navigationpage.jsp"></jsp:include>
+
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -36,6 +37,7 @@
 </div>
 </div>
 
+
    <div class=" container-fluid">      
   <div class="jumbotron">
   <br><h3>ABOUT NIIT</h3>
@@ -55,12 +57,12 @@ NIIT Imperia collaborated with KPMG India to offer advanced certified programs o
   </div>
   <div class="col-md-4">
     <div class="thumbnail">
-      <img src="images/grid2.jpg" alt="img2">
+      <img src="images/grid3.jpg" alt="img2">
       </div>
   </div>
   <div class="col-md-4">
     <div class="thumbnail">
-      <img src="images/grid3.jpg" alt="img3">
+      <img src="images/grid2.jpg" alt="img3">
     </div>
   </div>
  </div>

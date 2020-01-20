@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1" import="java.sql.*"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -8,8 +8,19 @@
 </head>
 <body>
 <jsp:include page="navigationpage.jsp"></jsp:include>
-
-<div class="container-fluid">
+<form action="hrapprovalaction.jsp">
+<% 
+	String u1=request.getParameter("name");
+	HttpSession sess=request.getSession();
+	sess.setAttribute("uname", u1);
+	String str="select * from skillset where name='"+u1+"'";
+	Class.forName("org.h2.Driver");
+	Connection con=DriverManager.getConnection("jdbc:h2:tcp://localhost/~/niitbootstrap","sa","");
+	Statement stm=con.createStatement();
+	ResultSet rs=stm.executeQuery(str);
+	rs.next();
+	%>
+<div class="container">
 <h2 style="color: blue; font-weight: bold;">HR Approval</h2>
 <table class="table table-condensed">
 <br>
@@ -21,19 +32,29 @@
 <th>Current Postion</th>
 <th>Posting Applied</th>
 <th>Course Handled</th>
-<th>Comments</th>
-<th>Status
-<div class="dropdown">
-<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Status<span class="caret"></span></button>
-<ul class="dropdown-menu">
- <li><a href="#">Approved</a></li>
-    <li><a href="#">Not Approved</a></li>
-    <li><a href="#">Waiting</a></li>
-</ul>
-</div>
-</th>
+<th>Status</th>
 </tr>
+<tr>
+<td><%=rs.getString(1) %></td>
+<td><%=rs.getString(2) %></td>
+<td><%=rs.getString(3) %></td>
+<td><%=rs.getString(4) %></td>
+<td><%=rs.getString(5) %></td>
+<td><%=rs.getString(6) %></td>
+<td><%=rs.getString(7) %></td>
+
+
+<td>
+<select class="form-control" name="status">
+<option>Waiting</option>
+<option>Not Approved</option>
+<option>Approved</option></select></tr>
 </table>
+<div class="container">
+ <div class="col-md-6">
+<button type="submit" class="btn btn-primary btn-lg" >Submit</button><br>
+ </div>
+</div>
 </div>
 <br>
 <br>

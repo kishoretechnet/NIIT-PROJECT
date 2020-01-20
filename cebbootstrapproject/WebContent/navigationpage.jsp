@@ -10,12 +10,13 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse  navbar-fixed-top">
 <div class="container-fluid">
 <div class="navbar-header">
 <a class="navbar-brand" href="https://www.niit.com/india/college-students/information-technology">
 <img src="images/frp1.jpg" class="img-responsive">
 </a>
+<p class="navbar-text" style="color:Ivory;">India's No:1 Tech Tutor</p>
 </div>
 
 <ul class="nav navbar-nav">
@@ -28,6 +29,7 @@
       <li><a href="frontpage.jsp"><span class="glyphicon glyphicon-user"></span> SIGN OUT</a></li>
 </ul>
 </nav>
+<br><br><br><br>
 </div>
 </body>
 </html>

@@ -11,13 +11,17 @@
 
 <h2 style="text-align:center; font-weight: bold;">Employee Page</h2>
 <div class="container">
-<br><a href="employeelogin.jsp" button type="submit" class="btn btn-primary btn-lg">Login</a></button>
+<br>
+<br>
+<br><a href="employeelogin.jsp" button type="submit" class="btn btn-success btn-lg">Sign In<h6>Account already exists</h6></a></button>
 <div class="col-sm-10">
-<a href="registerform.jsp" button type="submit" class="btn btn-primary btn-lg">Register</a></button><br>
+<a href="registerform.jsp" button type="submit" class="btn btn-primary btn-lg">Sign Up<h6>Register to Sign In</h6></a></button><br>
 </div>
 </div>
 <br>
 <br>
+<br>
+<br><br>
 <br>
 <br><br>
 <jsp:include page="footer.jsp"></jsp:include>

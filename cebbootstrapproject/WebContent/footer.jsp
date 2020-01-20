@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<div class="container">
+<div class="container-fluid">
 <br>
 <hr class="style2">
 
@@ -25,7 +25,7 @@
         <div class="text-center center-block">
             <p class="txt-railway">- NIIT Contact -</p>
             <br />
-                <a href="https://www.facebook.com/NIIT4u"><i class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href="https://www.facebook.com/niit.tech"><i class="fa fa-facebook-square fa-3x social"></i></a>
 	            <a href="https://twitter.com/NIITLtd/status/1160157374079877120"><i class="fa fa-twitter-square fa-3x social"></i></a>
 	            <a href="mailto:https://www.niit.com/india/training/contact-us/Pages/contact-information.aspx"><i class="fa fa-envelope-square fa-3x social"></i></a>
 </div>

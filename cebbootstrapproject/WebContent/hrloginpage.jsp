@@ -9,14 +9,14 @@
 function validateform()
 {
 	var uname=document.getElementById("name");
-	 var pass=document.getElementById("password");
+	 var pass=document.getElementById("pass");
 	 if(uname.value.trim()=="")
 		 {
 		 uname.style.border="solid 2px red";
 		 document.getElementById("lbluser").style.visiblity="visible";
 		 return false;
 		 }
-	 else if((pass.value.length<5))
+	 else if((pass.value.length<2))
 		 {
 		 pass.style.border="solid 2px red";
 		 document.getElementById("lblpass").style.visiblity="visible";
@@ -32,7 +32,7 @@ function validateform()
 <body>
 <jsp:include page="navigationpage.jsp"></jsp:include>
 <div class="container-fluid">
-<form class="form-horizontal" onsubmit="return validateform()" action="http://localhost:8080/cebbootstrapproject/hrhomepage.jsp">
+<form class="form-horizontal" action="hrloginaction.jsp">
 <h2 style="color:navy; font-weight: bold;  text-align:center;">HR Login</h2>
 <br>
 
@@ -40,21 +40,21 @@ function validateform()
     <label for="name" class="control-label col-sm-2" >User name:</label>
     <label id="lbluser" style="color:red; visibility:hidden;">Invalid user name</label>
     <div class="col-xs-6">
-      <input type="text" class="form-control" id="name" placeholder="Enter user name">
+      <input type="text" class="form-control" name="name" id="name" placeholder="Enter user name">
       </div>
     </div>
   
    <div class="form-group">
     <label for="password" class="control-label col-sm-2">Password:</label>
     <div class="col-xs-6">
-      <input type="password" class="form-control" id="password" placeholder="Enter password">
+      <input type="password" class="form-control" name="pass" id="pwd" placeholder="Enter password">
       <label id="lblpass" style="color:red; visibility:hidden">Password must between 4 to 10 characters</label>   
     </div>
  </div>
  
    <div class="container">
  <div class="col-md-6">
-<button type="submit" class="btn btn-primary btn-lg">Register</button><br>
+<button type="submit" class="btn btn-primary btn-lg"  onclick="return validateform()" >Login</button><br>
  </div>
 </div>
  </form>

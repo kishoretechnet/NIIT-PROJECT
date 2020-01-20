@@ -12,7 +12,7 @@
 <div class="container">
 <br><a href="skillsetloginpage.jsp" button type="submit" class="btn btn-primary btn-lg" >Skill Set Register</a></button>
 <div class="col-sm-9">
-<a href="registerform.jsp" button type="submit" class="btn btn-primary btn-lg">My Profile</a></button><br>
+<a href="updateform.jsp" button type="submit" class="btn btn-primary btn-lg">My Profile</a></button><br>
 </div>
 </div>
 <br>
