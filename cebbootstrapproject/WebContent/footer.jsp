@@ -14,14 +14,31 @@
 
 <div class="container-fluid">
 <br>
-<hr class="style2">
+<div class="column">
+<br>
 
-	<h2>Registered Address</h2>
-<h4>85, Sector 32,</h4>
-<h4> Institutional Area, Gurgaon,</h4>
-<h4>Haryana 122001, India</h4>
-
-    <hr />
+<h3 style="color: black; margin-left:10px">Registered Office Address:</h3>
+<h4><p style="text-align:left;margin-left:10px">
+    85,Sector 32,
+    <span style="float:right; margin-left:10px">
+        Corporate:info@niit.com
+            </span>
+</p>
+<p style="text-align:left;margin-left:10px">
+    Institutional area,Gurgaon
+    <span style="float:right;margin-left:10px"">
+    Careers:careers@niit.com
+    </span>
+</p>
+<p style="text-align:left;margin-left:10px">
+    Haryana 1222001,India
+    <span style="float:right;margin-left:20px">
+        Investors:investors@niit.com
+    </span>
+</p></h4>
+</div>
+<div>
+</div>
         <div class="text-center center-block">
             <p class="txt-railway">- NIIT Contact -</p>
             <br />
