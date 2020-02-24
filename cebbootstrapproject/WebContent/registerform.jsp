@@ -35,6 +35,7 @@ function validateform()
 		 }
 	 	else if(email.value.trim()=="")
 	 	{
+	 		
 	 		email.style.border="solid 2px red";
 	 		document.getElementById("lbluser").style.visiblity="visible";
 	 		return false;
@@ -63,8 +64,11 @@ function validateform()
   <div class="form-group">
     <label class="control-label col-sm-2" for="email">Email:</label>
     <label id="lbluser" style="color:red; visibility:hidden;">Email must be entered</label>
+    	
     	<div class="col-xs-6">
+    	
       		<input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+      		
     	</div>
   </div>
   <div class="form-group">

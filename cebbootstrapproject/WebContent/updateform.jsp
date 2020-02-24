@@ -86,7 +86,7 @@ rs.next();
   <div class="form-group">
   	<label for="pwd" class="control-label col-sm-2">Password:</label>
     	<div class="col-xs-6">
-      		<input type="text" value="<%=rs.getString(3)%>" class="form-control" id="pwd" name="password" placeholder="Enter password">
+      		<input type="password" value="<%=rs.getString(3)%>" class="form-control" id="pwd" name="password" placeholder="Enter password">
     	</div>
   </div>
   

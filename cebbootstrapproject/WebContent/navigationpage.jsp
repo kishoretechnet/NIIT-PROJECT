@@ -10,7 +10,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-inverse  navbar-fixed-top">
+<nav class="navbar navbar-inverse   navbar-fixed-top">
 <div class="container-fluid">
 <div class="navbar-header">
 <a class="navbar-brand" href="https://www.niit.com/india/college-students/information-technology">
@@ -20,8 +20,8 @@
 </div>
 
 <ul class="nav navbar-nav">
-<li class="active"><a href="hrloginpage.jsp"><h4>HR PAGE</h4></a></li>
-<li><a href="employeepage.jsp"><h4>EMPLOYEE PAGE</h4></a></li>
+<li class="active"><a href="hrloginpage.jsp"><h4>HR MODULE</h4></a></li>
+<li><a href="employeepage.jsp"><h4>EMPLOYEE MODULE</h4></a></li>
 <li><a href="contact.jsp"><h4>CONTACT US</h4></li>
 </ul>
 

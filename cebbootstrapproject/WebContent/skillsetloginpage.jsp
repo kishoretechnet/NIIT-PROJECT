@@ -85,37 +85,37 @@ function validateform()
     </div>
   </div>
   <div class="form-group">
-    <label class="control-label col-sm-2" for="snumber">Number of student handled:</label>
+    <label class="control-label col-sm-2" for="snumber">Number of student's handled:</label>
     <label id="lbluser" style="color:red; visibility:hidden;">No of students</label>
     <div class="col-xs-6">
       <input type="text" class="form-control" id="snumber" name="snumber" placeholder="Enter no of students">
     </div>
   </div>
   <div class="form-group">
-    <label class="control-label col-sm-2" for="bnumber">Number of batch handled:</label>
+    <label class="control-label col-sm-2" for="bnumber">Number of batch's handled:</label>
     <label id="lbluser" style="color:red; visibility:hidden;">No of batches</label>
     <div class="col-xs-6">
       <input type="text" class="form-control" id="bnumber" name="bnumber" placeholder="Enter no of batch">
     </div>
   </div>
   <div class="form-group">
-    <label class="control-label col-sm-2" for="current">Your current position:</label>
+    <label class="control-label col-sm-2" for="current">Current position:</label>
     <label id="lbluser" style="color:red; visibility:hidden;">Enter current position</label>
     <div class="col-xs-6">
       <input type="text" class="form-control" id="current" name="current" placeholder="Enter current position">
     </div>
   </div><div class="form-group">
-    <label class="control-label col-sm-2" for="posting">Posting applying:</label>
+    <label class="control-label col-sm-2" for="posting">Promoting new position:</label>
     <label id="lbluser" style="color:red; visibility:hidden;">Enter appling posting</label>
     <div class="col-xs-6">
       <input type="text" class="form-control" id="posting" name="posting" placeholder="Enter posting">
     </div>
   </div>
   <div class="form-group">
-    <label class="control-label col-sm-2" for="course">Enter the course handled:</label>
+    <label class="control-label col-sm-2" for="course">Course handling:</label>
     <label id="lbluser" style="color:red; visibility:hidden;">Enter course handled</label>
     <div class="col-xs-6">
-      <input type="text" class="form-control" id="course" name="course" nameplaceholder="Enter courses">
+      <input type="text" class="form-control" id="course" name="course" placeholder="Enter courses handled">
     </div>
   </div>
   <div class="form-group">
