@@ -9,8 +9,8 @@
 <body>
 <jsp:include page="navigationpage.jsp"></jsp:include>
 <h2 style="color:navy; font-weight: bold;  text-align:center;">Employee Login Action</h2>
-<div class="container">
-<br><a href="skillsetloginpage.jsp" button type="submit" class="btn btn-primary btn-lg" >Skill Set Register</a></button>
+<div class="container"><br>
+<a href="skillsetloginpage.jsp" button type="submit" class="btn btn-primary btn-lg" >Skill Set Register</a></button>
 <div class="col-sm-9">
 <a href="updateform.jsp" button type="submit" class="btn btn-primary btn-lg">My Profile</a></button><br>
 </div>

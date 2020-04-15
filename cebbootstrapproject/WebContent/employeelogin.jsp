@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+ <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -31,7 +31,7 @@ function validateform()
 </head>
 <body>
 <jsp:include page="navigationpage.jsp"></jsp:include>
-<div class="container-fluid">
+<div class="container-fluid ">
 <form class="form-horizontal" action="userloginaction.jsp">
 <h2 style="color:navy; font-weight: bold;  text-align:center;">Employee Login</h2>
 <br>
@@ -56,6 +56,7 @@ function validateform()
  <div class="col-md-6">
 <button type="submit" class="btn btn-primary btn-lg"  onclick="return validateform()" >Login</button><br>
  </div>
+
 </div>
  </form>
  </div>
